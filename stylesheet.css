@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.lin{
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+.se{
+    border: none;
+    background-color: #ffffff;
+}
+.fle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.navb{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+.navb:hover{
+    color: red;
+    font-size: 20px;
+}
+.search{
+    margin-top: 5px;
+}
+.width1{
+    width: 785px;
+    margin-top: 40px;
+}
+.lay2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.lay2-1{
+    font-size: 20px;
+    width: 533px;
+    margin-top: 40px;
+}
+.button1{
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.vid{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.button1:hover{
+    background-color: blue;
+    border: none;
+}
+.vid1-2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.vid1-2-1{
+    color: #000000;
+    text-decoration: none;
+}
+.vid1-2-1:hover{
+    font-size: 20px;
+    text-decoration: none;
+}
+.vid2-2{
+    padding-top: 40px;
+}
+.lay3-width{
+    width: 60%;
+    margin: 40px auto;
+}
+.lay3-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.lay-menu-tab{
+    background-color: #F2EFEF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+.lay-menu-tab:hover{
+    background-color: rgb(6, 7, 7);
+    color: white;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  .cont{
+      margin-top: 50px;
+  }
+  .cont1{
+      background-color: #F0F7F9;
+      border-radius: 10px;
+      width: 300px;
+      margin: auto;
+  }
+  .cont-img{
+      width: 250px;
+      margin: auto;
+  }
+  .cont-img:hover{
+      width: 75%;
+      transition: ease-in 0.5s;
+  }
+  p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .more{
+      margin: auto;
+      background-color: #000000;
+      color: #ffffff;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .more:hover{
+      background-color: blue;
+      border-color: blue;
+  }
+  .pad{
+      margin-top: 70px;
+  }
+  .width{
+      width: 23%;
+  }
+  .mmarg{
+      margin-left: 80px;
+  }
+  .feed{
+      background-color: #E6EAFF;
+      margin-top: 30px; 
+     padding-bottom: 30px;
+  }
+  .feed-sec1{
+      padding: 20px 0;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .feed-sec2{
+      width: 30%;
+      height: auto;
+      background-color: #FBFEFF;
+      text-align: center;
+      align-items: center;
+      font-size: 14px;
+      padding: 20px 70px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .img-pic{
+      width: 50%;
+      height: 100px;
+      border-radius: 100%;
+    
+  }
+  .feed2{
+    background-color: #FFFFFF;
+    margin-top: 30px; 
+   padding-bottom: 30px;
+  }
+  .feed3-1{
+      background-color: #E6EAFF;
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      padding: 30px 0px 0px 0px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .news-butt{
+      width: 65%;
+      padding: 8px 15px;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-family:monospace
+}
+.news-butt:hover{
+    border: 2px solid blue;
+}
+.sub-butt{
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+    font-family:monospace
+
+}
+.sub-butt:hover{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.foot{
+    padding: 30px 0px 0px;
+    
+}
+.list{
+    color: #000000;
+    padding: 0;
+    font-size: 14px;
+    
+}
+.log{
+    margin-top: 35px;
+}
+.l{
+    display: flex;
+    justify-content:left;
+}
+.l-1{
+    padding-right: 20px;
+}
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
